@@ -1,48 +1,52 @@
-# Assignment 3 – Functions & Modules in Python
+# Assignment 3 – Python Functions and Math Module
 
-## 📘 Module
-Module 4: Functions & Modules in Python
+## Description
 
-## 📝 Description
-This repository contains solutions for Assignment 3. The assignment focuses on using Python functions, recursion, and built-in modules.
-
----
-
-## ✅ Task 1: Factorial Using a Function
-- Takes a number as input from the user
-- Calculates factorial using a recursive function
-- Handles edge cases like 0 and negative numbers
-- Displays the factorial result
-
-### Concepts Used:
-- Functions
-- Recursion
-- Conditional statements
-- User input
+This assignment demonstrates the use of Python programming concepts such as
+functions, recursion, conditional statements, and the built-in math module.
+Special focus is given to input validation and exception handling to ensure
+the program works correctly for valid inputs and handles edge cases gracefully.
 
 ---
 
-## ✅ Task 2: Using the Math Module
-- Takes a number as input from the user
-- Uses Python's math module to calculate:
-  - Square root
-  - Natural logarithm (base e)
-  - Sine (in radians)
-- Displays all calculated results
+## Tasks Included
 
-### Concepts Used:
-- math module
-- Mathematical functions
-- Formatted output
+### Task 1: Factorial Using Recursion
+- Calculates the factorial of a given number using a recursive function.
+- Handles the base cases correctly for 0 and 1.
+- Prevents factorial calculation for negative numbers.
+- Uses try-except to handle invalid (non-integer) input.
+
+### Task 2: Mathematical Operations Using math Module
+- Calculates square root, logarithm, and sine of a given number.
+- Uses absolute value for square root to avoid errors.
+- Prevents calculation of logarithm for zero or negative numbers.
+- Converts degree input to radians before calculating sine.
+- Includes proper input validation and exception handling.
+
+---
+
+## Fixes and Improvements (Based on Mentor Feedback)
+
+- Corrected the base case of the factorial function to handle both 0 and 1.
+- Added input validation to restrict factorial calculation for negative numbers.
+- Implemented try-except blocks to handle invalid user input safely.
+- Added checks to prevent undefined operations such as log(0) or log of negative numbers.
+- Fixed indentation issues to ensure all parts of the code execute correctly.
+- Converted degree input into radians before applying the sine function.
+- Added meaningful comments to improve code readability and understanding.
 
 ---
 
-## 🛠 How to Run the Programs
-1. Clone the repository
-2. Run the Python files using:
+## How to Run the Program
 
+1. Open terminal or command prompt.
+2. Navigate to the project directory.
+3. Run the Python file using the following command:
 
----
+`bash
+python assignment3.py
+
 
 ## 👩‍💻 Author
 Itisha Rajput  
